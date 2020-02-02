@@ -38,7 +38,8 @@ public class HW2
         {
             System.out.print(numbers[i] + " ");
         }
-		return;
+		System.out.println();
+        return;
 	}
 	
 	public void testQuickSort()
@@ -60,7 +61,7 @@ public class HW2
 
         //call a sorting algorithm you made
         System.out.println("-- QuickSort --");
-        testQuick.sort(numbers);
+        testQuick.sort(numbers, 0, numbers.length - 1);
 
         //output sorted
         System.out.print("Sorted:   ");
@@ -68,6 +69,7 @@ public class HW2
         {
             System.out.print(numbers[i] + " ");
         }
+        System.out.println();
 		return;
 	}
 	
@@ -79,14 +81,13 @@ public class HW2
     	
     	main.testInsertionSort();
     	
-    	System.out.println("\nTesting ended.");
+    	System.out.println("\nTesting ended.\n");
     	
-    	//System.out.println("Testing quict sort...\n");
+    	System.out.println("Testing quick sort...\n");
     	
-    	//main.testQuickSort();
+    	main.testQuickSort();
     	
-    	//System.out.println("\nTesting ended.");
-    	
+    	System.out.println("\nTesting ended.\n");
     	
     }
 }

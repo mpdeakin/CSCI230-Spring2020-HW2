@@ -1,6 +1,6 @@
 /*
 Last:	02/02/2020
-Desc:	An implementation of Insertion Sort.
+Desc:	An implementation of insertion sort.
 */
 
 public class InsertionSort 
@@ -8,7 +8,7 @@ public class InsertionSort
 	// basic constructor
 	public InsertionSort()
 	{
-		System.out.println("insertion sort class initialized...");
+		//System.out.println("insertion sort class initialized...\n");
 		return;
 	}
 	
